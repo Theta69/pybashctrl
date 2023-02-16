@@ -1,3 +1,5 @@
 echo "Hello World"
-read -n 1 -s
+xset -display :0.0 dpms force off
+sleep 5s
+xset -display :0.0 dpms force on
 exit
